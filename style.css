@@ -6,6 +6,7 @@ img{
     height: 100%;
     width: 100%;
 }
+/* =-=-=-=-=-=-=-=-=-Header-=-=-=-=-=-=-=-=-=- */
 header{
     z-index: 10;
     top: 0;
@@ -53,7 +54,8 @@ header .header-contect nav ul li a{
     text-decoration: none;
     color: #3C354F;
 }
-/* header end */
+/* =-=-=-=-=-=-=-=-=-Header-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-banner-=-=-=-=-=-=-=-=-=- */
 .main{
     height: 100vh;
     justify-content: space-around;
@@ -99,7 +101,8 @@ header .header-contect nav ul li a{
 .main .goat-button .button2{
     background-color: #4EC5F7;
 }
-/* =-=-=-=-=-=-=-= */
+/* =-=-=-=-=-=-=-=-=-banner-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-game-section-=-=-=-=-=-=-=-=-=- */
 .game-section-titel{
     text-align: center;
     display: flex;
@@ -176,7 +179,8 @@ header .header-contect nav ul li a{
     border: 3px solid #F948B2;
     border-radius: 15px;
     } 
-    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+   /* =-=-=-=-=-=-=-=-=-game-section-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-Play-Instantly-=-=-=-=-=-=-=-=-=- */
     .Play-Instantly{
         padding: 50px 100px;
         justify-content: space-around;
@@ -213,7 +217,8 @@ header .header-contect nav ul li a{
         width: 200px;
         position: absolute;
     }
-    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+    /* =-=-=-=-=-=-=-=-=-Play-Instantly-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-new-section-=-=-=-=-=-=-=-=-=- */
     .center{
         gap: 15px;
         padding: 30px;
@@ -245,7 +250,8 @@ header .header-contect nav ul li a{
         height: 30px;
         width: 30px;
     }
-    /* =-=-=-=-=-=-=-=- */
+   /* =-=-=-=-=-=-=-=-=-new-section-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-footer-=-=-=-=-=-=-=-=-=- */
     footer{
         padding: 30px 0;
         background-color: #0B0223;
@@ -293,7 +299,6 @@ header .header-contect nav ul li a{
     .footer-icon a .fa-youtube{
         color: #FF42A5;
     }
-    /* =-=-=-=-=-=-=-=-=-= */
     .footer-list1{
         justify-content: center;
         align-items: center;
@@ -311,13 +316,16 @@ header .header-contect nav ul li a{
         justify-content: center;
         color: #888686;
     }
+/* =-=-=-=-=-=-=-=-=-footer-=-=-=-=-=-=-=-=-=- */
 
 
 
 
 
 
-/* reasposive */
+
+/* =-=-=-=-=-=-=-=-=-responsive-=-=-=-=-=-=-=-=-=- */
+
 @media screen and (max-width: 570px) {
     header{
         flex-direction: column;
@@ -326,7 +334,6 @@ header .header-contect nav ul li a{
         margin: 10px 0;
     }
     header .header-contect{
-        /* margin: 0px 0; */
         flex-direction: column;
     }
     .main{
@@ -377,3 +384,4 @@ header .header-contect nav ul li a{
     }
 
 }
+/* =-=-=-=-=-=-=-=-=-responsive-=-=-=-=-=-=-=-=-=- */
