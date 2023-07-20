@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+*{
+    font-family: 'Work Sans', sans-serif;
+}
 img{
     height: 100%;
     width: 100%;
@@ -11,7 +14,7 @@ header{
     z-index: 10;
     top: 0;
     left: 0;
-    position:sticky;
+    position: sticky;
     box-shadow: 5px 10px 10px #3C354F ;
     background-color: #fff;
     padding: 20px;
@@ -40,6 +43,12 @@ header .header-contect button{
     border: 0;
     padding: 9px;
     border-radius: 8px;
+}
+header .header-contect button .fa-youtube{
+    color: red;
+}
+header .header-contect button .fa-tiktok{
+    color: #0B0223;
 }
 header .header-contect button a{
     margin: 5px;
@@ -219,6 +228,7 @@ header .header-contect nav ul li a{
     }
     /* =-=-=-=-=-=-=-=-=-Play-Instantly-=-=-=-=-=-=-=-=-=- */
 /* =-=-=-=-=-=-=-=-=-new-section-=-=-=-=-=-=-=-=-=- */
+  
     .center{
         gap: 15px;
         padding: 30px;
@@ -336,13 +346,15 @@ header .header-contect nav ul li a{
     header .header-contect{
         flex-direction: column;
     }
-    .main{
-
-        margin: 100px 0px;
+    header .header-contect nav ul{
         flex-direction: column;
     }
-    .main .flax{
-        width: 100%;
+    header .header-contect nav ul li{
+       margin: 10px;
+    }
+    .main{
+        margin: 200px 0px;
+        flex-direction: column;
     }
    .photo{
     text-align: center;
@@ -373,8 +385,13 @@ header .header-contect nav ul li a{
         width: 90%;
     }
     .center, .center1{
+        gap: 0px;
         padding: 0px;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .game-image .img-icon{
+        font-size: 16px;
+        padding: 15px;
     }
     .footer-icon{
         justify-content: center;
